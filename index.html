@@ -9,23 +9,82 @@
     <link rel="stylesheet" href="scr/css/cartao.css" />
     <link rel="stylesheet" href="scr/css/listagem.css" />
     <link rel="stylesheet" href="scr/css/responsivo.css" />
+    <link rel="stylesheet" href="scr/css/menu.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
   </head>
+
   <body>
     <main>
       <div class="solidos-platonicos">    
         <div class="cartoes-poliedros">    
-          <div class="cartao-poliedro aberto tipo-tetra"  id="cartao-tetraedro">
+          <div class="cartao-poliedro aberto tipo-inicio"  id="cartao-inicio"> <!--tipo-inicio"  id="cartao-inicio"-->
+            <div class="cartao-topo">
+              <div class="detalhes">
+                <h2 class="nome">Sólidos Platônicos</h2>
+              </div>
+              <div class='menubar'>
+                <ul>
+                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=youtubesrcSolidosplatao;">youtube</a></li>
+                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=geogebrasrcSolidosplatao;">geogebra</a></li>
+                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=projetosrcSolidosplatao;">projeto</a></li>
+                </ul>
+              </div>
+              </div><div id='conteudo'>    <!-- como aplicar o responsível ?-->
+
+              <div class="cartao-imagem">
+                <img src="scr/imagens/poliedros_platao/platonicos.png" alt="Imagem poliedros de Platão" />
+              </div>
+            </div>
+
+            <div class="cartao-informacoes">
+              <div class="status">
+                <h3>Características</h3>
+                <p>Os sólidos de Platão ou sólidos Platônicos são compostos por cinco poliedros regulares:</p>
+                  <ul>
+                    <li>Tetraedro – elemento fogo;</li>
+                    <li>Hexaedro – elemento terra;</li>
+                    <li>Octaedro – elemento ar;</li>
+                    <li>Dodecaedro – elemento água;</li>
+                    <li>Icosaedro – Universo (Cosmo).</li>
+                  </ul>
+                <ul>
+                  <li>
+                    <p>Eles são regulares porque suas arestas e suas faces são congruentes (iguais).</p>
+                  </li>
+                  <li>
+                    <p>Os sólidos de Platão relacionam o número de vértices, arestas e faces pela fórmula criada por Euler: V + F = A + 2. Onde todas as faces são formadas por polígonos regulares e congruentes e também todos os vértices partem do mesmo número de arestas, desta forma, os ângulos são congruentes.</p>
+                  </li>
+                  <li>
+                    <p>Muitos foram os filósofos que como Platão buscavam entender o universo e sua origem. Platão buscou na geometria espacial, através dos sólidos geométricos, as respostas para seus questionamentos relacionando cada sólido a um elemento da natureza. Ele acreditava que o universo surgiu a partir de corpos perfeitos, sendo eles elementos geométricos regulares</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="recicla-solidos">
+                <a href="https://docs.google.com/presentation/d/1TKRt4iURgsgGNLhoSdlEs-IDm9UdYgpX0MCT-3GcjX4/edit?usp=drivesdk" target="_blank"><img src="scr/imagens/solidos-reciclados.png"alt="vídeos sobre sólidos" ></a>
+                <h4>
+                  <p>Sólidos Platônicos com <br>materiais reciclados</p>
+                </h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="cartao-poliedro tipo-tetra"  id="cartao-tetraedro">
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Tetraedro</h2>
-                <span>#001</span>
+                <span>01</span>
               </div>
-
-              <span class="tipo">###</span>
+              <div class='menubar'>
+                <ul>
+                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=youtubesrcTetraedro;">youtube</a></li>
+                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=geogebrasrcTetraedro;">geogebra</a></li>
+                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=projetosrcTetraedro;">projeto</a></li>
+                </ul>
+              </div>
+              </div><div id='conteudoTetraedro'>    <!-- como aplicar o responsível ?-->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/tetraedroimg.png" alt="Imagem tetraedro" />
@@ -35,30 +94,13 @@
             <div class="cartao-informacoes">
               <div class="status">
                 <h3>Características</h3>
-
                 <ul>
                   <li>Vertices: 4</li>
                   <li>Arestas: 6</li>
                   <li>Faces: 4</li>
                   <li>###</li>
-                  <li>###</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h4>Planificação</h4>
-
-                <ul>
                   <li>
-                    <a href="https://www.geogebra.org/m/n2efdya6" target="_blank"><img src="scr/imagens/planifca_tetraedro.png "alt="tetraedro geogebra" style="width:62px;height:42px;"></a>
-                  </li>
-                  <li>
-                    <h6>Recomendações</h6>
-                    <a href="https://www.geogebra.org/t/solids" target="_blank"><img src="scr/imagens/logoGeogebra.png"alt="página geogebra" style="width:72px;height:32px;"></a>
-                  </li>
-                  <li>
-                    
-                    <a href="https://www.youtube.com/watch?v=a1oSyr1qEI0" target="_blank"><img src="scr/imagens/logoYoutube.png"alt="vídeos sobre sólidos" style="width:52px;height:52px;"></a>
+                    <p>Platão considerou como o fogo por ser leve o mais violento dos elementos, porém o mais leve. O sólido recebe este nome devido a quantidade de faces, quatro no total, todas em forma de triângulo equilátero. </p>
                   </li>
                 </ul>
               </div>
@@ -69,10 +111,18 @@
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Hexaedro</h2>
-                <span>#002</span>
+                <span>02</span>
               </div>
 
-              <span class="tipo">###</span>
+              <div class='menubar'>
+                <ul>
+                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=youtubesrcHexaedro;">youtube</a></li>
+                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=geogebrasrcHexaedro;">geogebra</a></li>
+                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=projetosrcHexaedro;">projeto</a></li>
+                </ul>
+
+              </div>
+              </div><div id='conteudoHexaedro'> 
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/hexaedroimg.png" alt="Imagem hexaedro" />
@@ -88,27 +138,12 @@
                   <li>Arestas: 12</li>
                   <li>Faces: 6</li>
                   <li>###</li>
-                  <li>###</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h4>Planificação</h4>
-
-                <ul>
                   <li>
-                    <a href="https://www.geogebra.org/m/aaqwuprc" target="_blank"><img src="scr/imagens/planifca_hexaedro.png "alt="hexaedro geogebra" style="width:62px;height:42px;"></a>
-                  </li>
-                  <li>
-                    <h6>Recomendações</h6>
-                    <a href="https://www.geogebra.org/t/solids" target="_blank"><img src="scr/imagens/logoGeogebra.png"alt="página geogebra" style="width:72px;height:32px;"></a>
-                  </li>
-                  <li>
-                    
-                    <a href="https://www.youtube.com/watch?v=a1oSyr1qEI0" target="_blank"><img src="scr/imagens/logoYoutube.png"alt="vídeos sobre sólidos" style="width:52px;height:52px;"></a>
+                    <p>Considerado por Platão como sendo o elemento terra devido sua estabilidade. O sólido possui este nome por possuir seis faces na forma de um quadrado.</p>
                   </li>
                 </ul>
               </div>
+        
             </div>
           </div>
 
@@ -116,10 +151,19 @@
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Octaedro</h2>
-                <span>#003</span>
+                <span>03</span>
               </div>
 
-              <span class="tipo">###</span>
+              <div class='menubar'>
+                <ul>
+                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=youtubesrcOctaedro;">youtube</a></li>
+                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=geogebrasrcOctaedro;">geogebra</a></li>
+                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=projetosrcOctaedro;">projeto</a></li>
+                </ul>
+              </div>
+              </div><div id='conteudoOctaedro'>
+            
+              <!-- <span class="tipo">###</span>   -->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/octaedroimg.png" alt="Imagem octaedro" />
@@ -129,33 +173,17 @@
             <div class="cartao-informacoes">
               <div class="status">
                 <h3>Características</h3>
-
                 <ul>
                   <li>Vertices: 6</li>
                   <li>Arestas: 16</li>
                   <li>Faces: 8</li>
                   <li>###</li>
-                  <li>###</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h4>Planificação</h4>
-
-                <ul>
                   <li>
-                    <a href="https://www.geogebra.org/m/udmrebmf" target="_blank"><img src="scr/imagens/planifca_octaedro.png "alt="octaedro geogebra" style="width:62px;height:42px;"></a>
-                  </li>
-                  <li>
-                    <h6>Recomendações</h6>
-                    <a href="https://www.geogebra.org/t/solids" target="_blank"><img src="scr/imagens/logoGeogebra.png"alt="página geogebra" style="width:72px;height:32px;"></a>
-                  </li>
-                  <li>
-                    
-                    <a href="https://www.youtube.com/watch?v=a1oSyr1qEI0" target="_blank"><img src="scr/imagens/logoYoutube.png"alt="vídeos sobre sólidos" style="width:52px;height:52px;"></a>
+                    <p>Platão deu ao octaedro o elemento ar, porém sem muito explicação. Como o sólido possui oito faces em forma de triângulo equilátero.</p>
                   </li>
                 </ul>
               </div>
+
             </div>
           </div>
 
@@ -163,10 +191,19 @@
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Dodecaedro</h2>
-                <span>#004</span>
+                <span>04</span>
               </div>
 
-              <span class="tipo">###</span>
+              <div class='menubar'>
+                <ul>
+                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=youtubesrcDodecaedro;">youtube</a></li>
+                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=geogebrasrcDodecaedro;">geogebra</a></li>
+                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=projetosrcDodecaedro;">projeto</a></li>
+                </ul>
+              </div>
+              </div><div id='conteudoDodecaedro'>
+
+              <!-- <span class="tipo">###</span> -->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/Dodecaedroimg.png" alt="Imagem Dodecaedro" />
@@ -182,27 +219,12 @@
                   <li>Arestas: 30</li>
                   <li>Faces: 12</li>
                   <li>###</li>
-                  <li>###</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h4>Planificação</h4>
-
-                <ul>
                   <li>
-                    <a href="https://www.geogebra.org/m/jnryfpzr" target="_blank"><img src="scr/imagens/planifca_dodecaedro.png "alt="dodecaedro geogebra" style="width:62px;height:42px;"></a>
-                  </li>
-                  <li>
-                    <h6>Recomendações</h6>
-                    <a href="https://www.geogebra.org/t/solids" target="_blank"><img src="scr/imagens/logoGeogebra.png"alt="página geogebra" style="width:72px;height:32px;"></a>
-                  </li>
-                  <li>
-                    
-                    <a href="https://www.youtube.com/watch?v=a1oSyr1qEI0" target="_blank"><img src="scr/imagens/logoYoutube.png"alt="vídeos sobre sólidos" style="width:52px;height:52px;"></a>
+                    <p>O Dodecaedro possui um formato único com suas 12 faces em forma de pentágono, considerado por Platão como o mais harmônico e por isso representa o universo em toda sua imensidão.</p>
                   </li>
                 </ul>
               </div>
+
             </div>
           </div>
 
@@ -210,10 +232,19 @@
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Icosaedro</h2>
-                <span>#005</span>
+                <span>05</span>
               </div>
 
-              <span class="tipo">###</span>
+              <div class='menubar'>
+                <ul>
+                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=youtubesrcIcosaedro;">youtube</a></li>
+                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=geogebrasrcIcosaedro;">geogebra</a></li>
+                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=projetosrcIcosaedro;">projeto</a></li>
+                </ul>
+              </div>
+              </div><div id='conteudoIcosaedro'>
+
+              <!-- <span class="tipo">###</span>  -->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/icosaedroimg.png" alt="Imagem Icosaedro" />
@@ -229,27 +260,12 @@
                   <li>Arestas: 30</li>
                   <li>Faces: 20</li>
                   <li>###</li>
-                  <li>###</li>
-                </ul>
-              </div>
-
-              <div class="habilidades">
-                <h4>Planificação</h4>
-
-                <ul>
                   <li>
-                    <a href="https://www.geogebra.org/m/v6j2yvc6" target="_blank"><img src="scr/imagens/planifca_icosaedro.png "alt="icosaedro geogebra" style="width:62px;height:42px;"></a>
-                  </li>
-                  <li>
-                    <h6>Recomendações</h6>
-                    <a href="https://www.geogebra.org/t/solids" target="_blank"><img src="scr/imagens/logoGeogebra.png"alt="página geogebra" style="width:72px;height:32px;"></a>
-                  </li>
-                  <li>
-                    
-                    <a href="https://www.youtube.com/watch?v=a1oSyr1qEI0" target="_blank"><img src="scr/imagens/logoYoutube.png"alt="vídeos sobre sólidos" style="width:52px;height:52px;"></a>
+                    <p>Como a água é fluida e como o Icosaedro possui mais facilidade de rolar que os outros sólidos, representa o elemento água. O nome deste sólido é devido suas 20 faces em forma de pentágono.</p>
                   </li>
                 </ul>
               </div>
+
             </div>
           </div>
 
@@ -258,8 +274,12 @@
 
         <nav class="listagem">
           <ul>
-            <li class="poliedro ativo" id="tetraedro">   
-              <img src="scr/imagens//poliedros_gifs/tetraedro2.gif" alt="gif tetraedro" />
+            <li class="poliedro ativo" id="inicio">   <!--id="inicio"  -->  
+              <img src="scr/imagens/platao-face.png" alt="desenho Platão" />
+              <span>Sólidos<br> Platônicos</span>
+            </li>
+            <li class="poliedro" id="tetraedro">   <!--id="inicio"  -->  
+              <img src="scr/imagens/poliedros_gifs/tetraedro2.gif" alt="gif tetraedro" />
               <span>Tetraedro</span>
             </li>
             <li class="poliedro" id="hexaedro">  
@@ -283,7 +303,9 @@
         </nav>
       </div>
     </main>
-
     <script src="scr/JS/index.js"></script>
+
+    <script src="scr/JS/menu.js"></script>  
+
   </body>
 </html>

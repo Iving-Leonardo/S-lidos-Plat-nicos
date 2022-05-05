@@ -13,24 +13,32 @@
 }
 
 .cartao-poliedro .tipo {
-    font-size: 12px;
+    display: flex;
+    font-size: 13px;
     background-color:#ffffff ;
     opacity: 0.8;
     border-radius: 15px;
-    padding: 2px 10px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 3px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;  
+}   
+
+.cartao-poliedro #conteudo {   
+    display: flex; 
 }
 
 .cartao-poliedro .detalhes {
     color:#ffffff ;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
 }
 
 .cartao-poliedro .cartao-imagem {
-    width: 350px;
+    width: 350px;  /*tamanho */
     height: 350px;
+    display: flex;
+    justify-content:center; 
+    margin-left: 55px;
 }
 
 .cartao-poliedro img {
@@ -38,8 +46,6 @@
 }
 
 .cartao-poliedro .cartao-informacoes {
-    display: flex;
-    justify-content: space-between;
     background-color: #ffffff;
     padding: 80px 30px 50px;
     margin-top: -70px;
@@ -51,6 +57,10 @@
     font-size: 20px;
     margin-bottom: 15px;
     border-bottom: 1px solid #6B727A;
+}
+
+.cartao-informacoes .status p {
+    text-align:justify; 
 }
 
 .cartao-poliedro .cartao-informacoes .status, .cartao-poliedro .cartao-informacoes .habilidades {
@@ -89,4 +99,6 @@
     background-color: #BA68C8;
 }
 
-
+.tipo-inicio {
+    background-color: #4f5255;
+}

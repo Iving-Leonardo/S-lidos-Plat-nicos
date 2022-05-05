@@ -8,6 +8,7 @@ main {
     align-items: center;
     justify-content: center;  
     background-color: #DADFE8;
+    flex-wrap:  wrap-reverse ;
 }
 
 .solidos-platonicos {

@@ -1,0 +1,26 @@
+.menubar {
+    display:block;
+    width:100%
+}
+
+.menubar li {display: inline;}
+.menubar li a {
+    display:inline-block;
+    width:100px;
+    height:20px;
+    line-height:20px;
+    text-align: center;
+    /*border:1pt solid black; */
+    text-decoration:none;
+    color:black;
+    opacity: 1;
+    border-radius: 7px;
+    font-weight: bold;
+    margin: 15px;
+    /*font-size: 20px;*/
+}
+.menubar li a:hover {background-color:#ece9e9;;}
+.menubar li a.select {
+    background-color:#AAAAAA;
+    color:white;
+}    
