@@ -5,7 +5,7 @@
 }
 
 .cartao-poliedro .cartao-topo {
-    padding: 30px 40px 0;     /* aplicado no nome pikachu, raio e #001 */
+    padding: 30px 40px 0;    
 }
 
 .cartao-poliedro .nome {
@@ -60,19 +60,25 @@
 }
 
 .cartao-informacoes .status p {
-    text-align:justify; 
+    text-align:justify;
+    padding: 10px; 
 }
 
 .cartao-poliedro .cartao-informacoes .status, .cartao-poliedro .cartao-informacoes .habilidades {
     padding: 0 10px;
-    width: 180px;
+    width: 400px;
 }
 
 .cartao-poliedro .cartao-informacoes .habilidades ul li, .cartao-poliedro .cartao-informacoes .status ul li {
     border-bottom: 1px solid #C3C4C5;
     padding: 0 0 5px;
     margin-bottom: 5px;
+    margin-top: 15PX;
     font-size: 15px;
+}
+
+.cartao-poliedro .cartao-informacoes .habilidades ul li {
+    border-bottom: none;
 }
 
 .cartao-poliedro.aberto {

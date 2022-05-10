@@ -1,6 +1,5 @@
 @media (max-width: 750px) {
     body { font-size: 12px;
-
     }
 
     body #conteudo {
@@ -35,8 +34,7 @@
 
    .solidos-platonicos {
     flex-direction: column;
-    padding: 30px 0;
-        
+    padding: 30px 0;   
     }
 
     .cartao-poliedro {
@@ -62,8 +60,7 @@
     }
 
     .cartao-poliedro .cartao-informacoes h3 {
-        font-size: 16px;
-        
+        font-size: 16px;  
     }
 
     .cartao-poliedro .cartao-informacoes {
@@ -95,21 +92,12 @@
         padding-right: 5px;
     }
 
-    /*.cartao-poliedro .tipo {
-        display: flex;
-        flex-wrap: wrap;
-        margin-right: 25px;
-    }  */
-
     .cartao-poliedro .menubar li a {
         display: flex;
         flex-wrap: wrap;   
     }
 
     .cartao-poliedro .menubar ul {
-        margin: 0;
-      
+        margin: 0;  
     }
 }
-
-

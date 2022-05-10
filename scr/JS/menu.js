@@ -49,6 +49,7 @@ function selectabaOctaedro(an) {
 
  // icosaedro menubar
  var youtubesrcIcosaedro="<iframe width='900'        height='500' src='https://www.youtube.com/embed/E3KDVkaOq2o'; title='YouTube video player' frameborder=0 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
+
  var geogebrasrcIcosaedro="<iframe src='https://www.geogebra.org/m/v6j2yvc6'; width='900' height='600' allowfullscreen style='border: 1px solid #e4e4e4;border-radius: 4px;' frameborder='0'></iframe>";
  var projetosrcIcosaedro="<iframe width='900'        height='500' src='https://docs.google.com/presentation/d/1TKRt4iURgsgGNLhoSdlEs-IDm9UdYgpX0MCT-3GcjX4/edit#slide=id.p'; title='YouTube video player' frameborder=0 allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>";
  

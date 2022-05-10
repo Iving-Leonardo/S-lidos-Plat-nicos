@@ -18,18 +18,47 @@
 
   <body>
     <main>
-      <div class="solidos-platonicos">    
+      <div class="solidos-platonicos"> 
+        <nav class="listagem">
+          <ul>
+            <li class="poliedro ativo" id="inicio">   
+              <img src="scr/imagens/platao-face.png" alt="desenho Platão" />
+              <span>Sólidos<br> Platônicos</span>
+            </li>
+            <li class="poliedro" id="tetraedro">   
+              <img src="scr/imagens/poliedros_gifs/tetraedro2.gif" alt="gif tetraedro" />
+              <span>Tetraedro</span>
+            </li>
+            <li class="poliedro" id="hexaedro">  
+              <img src="scr/imagens/poliedros_gifs/cubo2.gif" alt="gif hexaedro" />
+              <span>Hexaedro</span>
+            </li>
+            <li class="poliedro" id="octaedro">  
+              <img src="scr/imagens/poliedros_gifs/octaedro2.gif" alt="gif octaedro" />
+              <span>Octaedro</span>
+            </li>
+            <li class="poliedro" id="dodecaedro">  
+              <img src="scr/imagens/poliedros_gifs/dodecaedro2.gif" alt="gif dodecaedro" />
+              <span>Dodecaedro</span>
+            </li>
+            <li class="poliedro" id="icosaedro">  
+              <img src="scr/imagens/poliedros_gifs/icosaedro2.gif" alt="gif icosaedro" />
+              <span>Icosaedro</span>
+            </li>
+            
+          </ul>
+        </nav> 
         <div class="cartoes-poliedros">    
-          <div class="cartao-poliedro aberto tipo-inicio"  id="cartao-inicio"> <!--tipo-inicio"  id="cartao-inicio"-->
+          <div class="cartao-poliedro aberto tipo-inicio"  id="cartao-inicio"> 
             <div class="cartao-topo">
               <div class="detalhes">
                 <h2 class="nome">Sólidos Platônicos</h2>
               </div>
               <div class='menubar'>
                 <ul>
-                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=youtubesrcSolidosplatao;">youtube</a></li>
-                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=geogebrasrcSolidosplatao;">geogebra</a></li>
-                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=projetosrcSolidosplatao;">projeto</a></li>
+                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=youtubesrcSolidosplatao;">YOUTUBE</a></li>
+                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=geogebrasrcSolidosplatao;">GEOGEBRA</a></li>
+                  <li><a href='#' onclick="selectabaSolidosplatao(this);document.getElementById('conteudo').innerHTML=projetosrcSolidosplatao;">PROJETO</a></li>
                 </ul>
               </div>
               </div><div id='conteudo'>    <!-- como aplicar o responsível ?-->
@@ -37,9 +66,13 @@
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/platonicos.png" alt="Imagem poliedros de Platão" />
               </div>
+
+              
+              
             </div>
 
             <div class="cartao-informacoes">
+              <!-- listagem -->
               <div class="status">
                 <h3>Características</h3>
                 <p>Os sólidos de Platão ou sólidos Platônicos são compostos por cinco poliedros regulares:</p>
@@ -79,9 +112,9 @@
               </div>
               <div class='menubar'>
                 <ul>
-                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=youtubesrcTetraedro;">youtube</a></li>
-                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=geogebrasrcTetraedro;">geogebra</a></li>
-                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=projetosrcTetraedro;">projeto</a></li>
+                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=youtubesrcTetraedro;">YOUTUBE</a></li>
+                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=geogebrasrcTetraedro;">GEOGEBRA</a></li>
+                  <li><a href='#' onclick="selectabaTetraedro(this);document.getElementById('conteudoTetraedro').innerHTML=projetosrcTetraedro;">PROJETO</a></li>
                 </ul>
               </div>
               </div><div id='conteudoTetraedro'>    <!-- como aplicar o responsível ?-->
@@ -98,7 +131,7 @@
                   <li>Vertices: 4</li>
                   <li>Arestas: 6</li>
                   <li>Faces: 4</li>
-                  <li>###</li>
+                  <!--<li>###</li>-->
                   <li>
                     <p>Platão considerou como o fogo por ser leve o mais violento dos elementos, porém o mais leve. O sólido recebe este nome devido a quantidade de faces, quatro no total, todas em forma de triângulo equilátero. </p>
                   </li>
@@ -116,9 +149,9 @@
 
               <div class='menubar'>
                 <ul>
-                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=youtubesrcHexaedro;">youtube</a></li>
-                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=geogebrasrcHexaedro;">geogebra</a></li>
-                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=projetosrcHexaedro;">projeto</a></li>
+                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=youtubesrcHexaedro;">YOUTUBE</a></li>
+                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=geogebrasrcHexaedro;">GEOGEBRA</a></li>
+                  <li><a href='#' onclick="selectabaHexaedro(this);document.getElementById('conteudoHexaedro').innerHTML=projetosrcHexaedro;">PROJETO</a></li>
                 </ul>
 
               </div>
@@ -137,7 +170,7 @@
                   <li>Vertices: 8</li>
                   <li>Arestas: 12</li>
                   <li>Faces: 6</li>
-                  <li>###</li>
+                  <!--<li>###</li>-->
                   <li>
                     <p>Considerado por Platão como sendo o elemento terra devido sua estabilidade. O sólido possui este nome por possuir seis faces na forma de um quadrado.</p>
                   </li>
@@ -156,14 +189,12 @@
 
               <div class='menubar'>
                 <ul>
-                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=youtubesrcOctaedro;">youtube</a></li>
-                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=geogebrasrcOctaedro;">geogebra</a></li>
-                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=projetosrcOctaedro;">projeto</a></li>
+                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=youtubesrcOctaedro;">YOUTUBE</a></li>
+                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=geogebrasrcOctaedro;">GEOGEBRA</a></li>
+                  <li><a href='#' onclick="selectabaOctaedro(this);document.getElementById('conteudoOctaedro').innerHTML=projetosrcOctaedro;">PROJETO</a></li>
                 </ul>
               </div>
               </div><div id='conteudoOctaedro'>
-            
-              <!-- <span class="tipo">###</span>   -->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/octaedroimg.png" alt="Imagem octaedro" />
@@ -177,7 +208,7 @@
                   <li>Vertices: 6</li>
                   <li>Arestas: 16</li>
                   <li>Faces: 8</li>
-                  <li>###</li>
+                  <!--<li>###</li>-->
                   <li>
                     <p>Platão deu ao octaedro o elemento ar, porém sem muito explicação. Como o sólido possui oito faces em forma de triângulo equilátero.</p>
                   </li>
@@ -196,14 +227,12 @@
 
               <div class='menubar'>
                 <ul>
-                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=youtubesrcDodecaedro;">youtube</a></li>
-                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=geogebrasrcDodecaedro;">geogebra</a></li>
-                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=projetosrcDodecaedro;">projeto</a></li>
+                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=youtubesrcDodecaedro;">YOUTUBE</a></li>
+                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=geogebrasrcDodecaedro;">GEOGEBRA</a></li>
+                  <li><a href='#' onclick="selectabaDodecaedro(this);document.getElementById('conteudoDodecaedro').innerHTML=projetosrcDodecaedro;">PROJETO</a></li>
                 </ul>
               </div>
               </div><div id='conteudoDodecaedro'>
-
-              <!-- <span class="tipo">###</span> -->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/Dodecaedroimg.png" alt="Imagem Dodecaedro" />
@@ -218,7 +247,7 @@
                   <li>Vertices: 20</li>
                   <li>Arestas: 30</li>
                   <li>Faces: 12</li>
-                  <li>###</li>
+                  <!--<li>###</li>-->
                   <li>
                     <p>O Dodecaedro possui um formato único com suas 12 faces em forma de pentágono, considerado por Platão como o mais harmônico e por isso representa o universo em toda sua imensidão.</p>
                   </li>
@@ -237,14 +266,12 @@
 
               <div class='menubar'>
                 <ul>
-                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=youtubesrcIcosaedro;">youtube</a></li>
-                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=geogebrasrcIcosaedro;">geogebra</a></li>
-                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=projetosrcIcosaedro;">projeto</a></li>
+                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=youtubesrcIcosaedro;">YOUTUBE</a></li>
+                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=geogebrasrcIcosaedro;">GEOGEBRA</a></li>
+                  <li><a href='#' onclick="selectabaIcosaedro(this);document.getElementById('conteudoIcosaedro').innerHTML=projetosrcIcosaedro;">PROJETO</a></li>
                 </ul>
               </div>
               </div><div id='conteudoIcosaedro'>
-
-              <!-- <span class="tipo">###</span>  -->
 
               <div class="cartao-imagem">
                 <img src="scr/imagens/poliedros_platao/icosaedroimg.png" alt="Imagem Icosaedro" />
@@ -259,7 +286,7 @@
                   <li>Vertices: 12</li>
                   <li>Arestas: 30</li>
                   <li>Faces: 20</li>
-                  <li>###</li>
+                  <!--<li>###</li>  -->
                   <li>
                     <p>Como a água é fluida e como o Icosaedro possui mais facilidade de rolar que os outros sólidos, representa o elemento água. O nome deste sólido é devido suas 20 faces em forma de pentágono.</p>
                   </li>
@@ -268,39 +295,9 @@
 
             </div>
           </div>
-
-        
+                 
         </div>
-
-        <nav class="listagem">
-          <ul>
-            <li class="poliedro ativo" id="inicio">   <!--id="inicio"  -->  
-              <img src="scr/imagens/platao-face.png" alt="desenho Platão" />
-              <span>Sólidos<br> Platônicos</span>
-            </li>
-            <li class="poliedro" id="tetraedro">   <!--id="inicio"  -->  
-              <img src="scr/imagens/poliedros_gifs/tetraedro2.gif" alt="gif tetraedro" />
-              <span>Tetraedro</span>
-            </li>
-            <li class="poliedro" id="hexaedro">  
-              <img src="scr/imagens/poliedros_gifs/cubo2.gif" alt="gif hexaedro" />
-              <span>Hexaedro</span>
-            </li>
-            <li class="poliedro" id="octaedro">  
-              <img src="scr/imagens/poliedros_gifs/octaedro2.gif" alt="gif octaedro" />
-              <span>Octaedro</span>
-            </li>
-            <li class="poliedro" id="dodecaedro">  
-              <img src="scr/imagens/poliedros_gifs/dodecaedro2.gif" alt="gif dodecaedro" />
-              <span>Dodecaedro</span>
-            </li>
-            <li class="poliedro" id="icosaedro">  
-              <img src="scr/imagens/poliedros_gifs/icosaedro2.gif" alt="gif icosaedro" />
-              <span>Icosaedro</span>
-            </li>
-            
-          </ul>
-        </nav>
+        <!-- listagem -->
       </div>
     </main>
     <script src="scr/JS/index.js"></script>
