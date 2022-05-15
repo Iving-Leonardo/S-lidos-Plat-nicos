@@ -21,4 +21,5 @@
 .menubar li a.select {
     background-color:#AAAAAA;
     color:white;
+    justify-content: center;
 }    

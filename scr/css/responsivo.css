@@ -91,13 +91,5 @@
     .listagem .poliedro span {
         padding-right: 5px;
     }
-
-    .cartao-poliedro .menubar li a {
-        display: flex;
-        flex-wrap: wrap;   
-    }
-
-    .cartao-poliedro .menubar ul {
-        margin: 0;  
-    }
+  
 }
